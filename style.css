@@ -7,3 +7,19 @@ body {
   color:#000;
   font-family:'Actor';
 }
+
+.language {
+  background:#ccc;
+  display:inline-block;
+  font-family:'Cousine';
+  font-size:60%;
+  padding:5px;
+}
+
+.language:before {
+  content:'[';
+}
+
+.language:after {
+  content:']';
+}
