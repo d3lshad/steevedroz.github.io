@@ -8,6 +8,10 @@ body {
   font-family:'Actor';
 }
 
+img {
+  float:right;
+}
+
 .language {
   background:#ccc;
   display:inline-block;
