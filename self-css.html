@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Self CSS</title>
+    <style id="invisible">
+      #invisible {
+        display: none !important;
+      }
+      #edit {
+        display:block !important;
+        font-family: monospace;
+        white-space: pre-wrap;
+        min-height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This page edits its own CSS</h1>
+    <h2>CSS</h2>
+<style id="edit" contenteditable>h1 {
+  text-align: center;
+}
+</style>
+  <h2>How it works</h2>
+  <p>A <code>&lt;style&gt;</code> tag is placed in the <code>&lt;body&gt;</code> and is set to be <code>display: block</code>. It also has the HTML attribute <code>contenteditable</code>.
+  </p>
+  <p>
+    Try it out! This page contains a <code>&lt;h1&gt;</code>, two <code>&lt;h2&gt;</code>, a <code>&lt;style&gt;</code> and three <code>&lt;p&gt;</code>.</p>
+  <p>Please check the source code for more information.</p>
+  </body>
+</html>
