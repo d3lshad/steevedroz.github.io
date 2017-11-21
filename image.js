@@ -1,5 +1,5 @@
 const canvas = document.createElement('canvas')
-canvas.width = 1686
+canvas.width = 1922
 canvas.height = 1190
 const context = canvas.getContext('2d')
 
