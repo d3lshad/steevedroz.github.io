@@ -12,7 +12,6 @@ body {
   overflow: hidden;
 }
 
-
 .topnav a {
   float: left;
   display: block;
@@ -66,7 +65,7 @@ p {
 }
 
 footer {
-  background-color: #6B6B6B;
+  background-color: #333333;
   width: 100%;
   position: fixed;
   bottom: 5px;
@@ -78,4 +77,8 @@ footer {
   font-size: 20px;
   padding-left: 10px;
   font-weight: bold;
+}
+
+.text_edit {
+  font-size: 18px;
 }
